@@ -10,7 +10,7 @@
 
 #include <stdint.h>
 
-#define LANDING_THRUST 30000
+#define LANDING_THRUST 0
 #define LANDING_YAWRATE 0.0
 #define LANDING_PITCH 0.0
 #define LANDING_ROLL 0.0
