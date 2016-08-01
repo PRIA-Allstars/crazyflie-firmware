@@ -61,7 +61,7 @@ void landing_update()
 			if(positionControl_getWmcStatus() != WMC_STATUS_OK)
 			{
                 patternInvisibleCounter++;
-                if(patternInvisibleCounter > 10) {
+                if(patternInvisibleCounter > 15) {
     				patternVisible = false;
     				landing_counter = 0;
     				commanderSetPositionControl(false);
